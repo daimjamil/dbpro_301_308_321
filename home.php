@@ -1,14 +1,17 @@
+<?php
+session_start();
+?>
+
 <html>
 <head>
 <title> LOAN MANAGEMENT SYSTEM </title>
-<link rel="stylesheet" type="text/css" href="stylesharp.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css"
 href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
 <body>
-
 
 <h1> LOAN MANAGEMENT SYSTEM </h1>
 <div class="menu">
@@ -20,17 +23,15 @@ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min
 <div class="btn"><a href = "Loan details.html"><i class="fa fa-info-circle" aria-hidden="true"></i>Loan Details</a></div>
 </div>
 
+
 <div id="InsertBox">
       <div class="center">
-        <h1> EMPLOYEE INFORMATION</h1>
-	<input type="text" name="EmployeeName" placeholder="Employee Name"/>
-	<input type="text" name="EmployeeCNIC" placeholder="Employee CNIC"/>
-	<input type="text" name="EmployeePhone" placeholder="Employee Phone#"/>
-	<input type="text" name="EmployeeAddress" placeholder="Employee Address"/>        
-
-          <input type="submit" name="insert-button" value="ADD"/>  
+        <h1> BANK INFORMATION</h1>
+          <input type="text" name="BankName" placeholder="Bank Name"/>
+          <input type="text" name="Branch" placeholder="Branch"/>
+          <input type="text" name="Address" placeholder="Address"/>
+          <input type="submit" name="insert-button" value="ADD"/>        
 </div>
-
 
 
 </body>
