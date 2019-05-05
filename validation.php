@@ -16,7 +16,7 @@ $result = mysqli_query($con, $s);
 $num = mysqli_num_rows($result);
 
 if($num == 1){
-    header('location:Bank.html');
+    header('location:Bank.php');
 }else{
     header('location:login.php');
 }
